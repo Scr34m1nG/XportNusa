@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">XportNusa</string>
+    <string name="web_client_id">1053239255879-234vg88oghtthj7k0q2a6qo8o07psq1m.apps.googleusercontent.com</string>
+    <string name="email_error">your email not correct</string>
 </resources>
