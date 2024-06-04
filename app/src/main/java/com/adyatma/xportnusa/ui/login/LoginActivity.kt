@@ -1,4 +1,4 @@
-package com.adyatma.xportnusa.login
+package com.adyatma.xportnusa.ui.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,7 +13,7 @@ import androidx.credentials.exceptions.GetCredentialException
 import androidx.lifecycle.lifecycleScope
 import com.adyatma.xportnusa.R
 import com.adyatma.xportnusa.databinding.ActivityLoginBinding
-import com.adyatma.xportnusa.formfieldform.BuyerOrSeller
+import com.adyatma.xportnusa.ui.formfieldform.BuyerOrSeller
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
 import com.google.android.libraries.identity.googleid.GoogleIdTokenParsingException
