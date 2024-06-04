@@ -2,4 +2,16 @@
     <string name="app_name">XportNusa</string>
     <string name="web_client_id">1053239255879-234vg88oghtthj7k0q2a6qo8o07psq1m.apps.googleusercontent.com</string>
     <string name="email_error">your email not correct</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="hint_email">john.doe@example.com</string>
+    <string name="error_email">your email is not correct</string>
+    <string name="hint_password">Input your password</string>
+    <string name="error_password">password must more than 8 char</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or_login">--- OR ---</string>
+    <string name="login">Login</string>
+    <string name="login_greetings">Hi Buddy! \n let\'s start your journey</string>
+    <string name="password">Password</string>
+    <string name="email">email</string>
 </resources>
