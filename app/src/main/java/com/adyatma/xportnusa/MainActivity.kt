@@ -23,7 +23,9 @@ class MainActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+                                                        finish()
         }, 2000)
+
     }
 
     private fun setupView() {
