@@ -14,6 +14,7 @@ import androidx.lifecycle.lifecycleScope
 import com.adyatma.xportnusa.R
 import com.adyatma.xportnusa.databinding.ActivityLoginBinding
 import com.adyatma.xportnusa.ui.formfieldform.BuyerOrSeller
+import com.adyatma.xportnusa.ui.signup.SignUpActivity
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
 import com.google.android.libraries.identity.googleid.GoogleIdTokenParsingException
@@ -42,6 +43,10 @@ class LoginActivity : AppCompatActivity() {
 
         binding.signIn.setOnClickListener{
             singIn()
+        }
+
+        binding.gotoRegister.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, SignUpActivity::class.java))
         }
     }
 
