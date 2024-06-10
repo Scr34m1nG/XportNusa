@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Ensiklopedia Bunga</string>
+
+    <string name="animal_name">Nama Bunga</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+
+    <string-array name="data_name">
+        <item>Anggrek Ungu</item>
+        <item>Anyelir Merah Muda</item>
+        <item>Aster Ungu</item>
+        <item>Dahlia Merah</item>
+        <item>Edelweiss</item>
+        <item>Kamelia Merah Muda</item>
+        <item>Matahari Kuning</item>
+        <item>Mawar Putih</item>
+        <item>Sakura</item>
+        <item>Tulip Merah Muda</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/anggrek_ungu</item>
+        <item>@drawable/anyelir_merah_muda</item>
+        <item>@drawable/aster_ungu</item>
+        <item>@drawable/dahlia_merah</item>
+        <item>@drawable/edelweiss</item>
+        <item>@drawable/kamelia_merah_muda</item>
+        <item>@drawable/matahari_kuning</item>
+        <item>@drawable/mawar_putih</item>
+        <item>@drawable/sakura</item>
+        <item>@drawable/tulip_merah_muda</item>
+    </integer-array>
+
+    <string-array name="data_description">
+        <item>Bunga anggrek ungu memiliki makna spiritual yang cukup dalam. Bunga ini melambangkan hubungan spiritual dengan yang ilahi. Ini melambangkan pencarian kebijaksanaan batin dan pemahaman akan makna hidup yang lebih dalam. Beberapa budaya percaya bahwa anggrek ungu adalah representasi kemakmuran, kelimpahan, dan kesuksesan.</item>
+        <item>Bunga anyelir merah muda memiliki makna dan simbolisme yang mendalam. Bunga ini melambangkan cinta, keindahan, kasih sayang, dan keberuntungan. Makna ini dapat diapresiasi oleh individu dari berbagai budaya dan latar belakang. Bunga anyelir merah muda sering dipilih sebagai pilihan yang populer untuk acara-acara khusus.</item>
+        <item>Bunga aster ungu memiliki makna yang cukup khusus. Warna ungu pada bunga biasanya melambangkan keagungan, kebanggaan, dan juga kerajaan. Jadi, bunga aster ungu dapat diartikan sebagai simbol keagungan dan kebanggaan.</item>
+        <item>Bunga dahlia merah memiliki makna budaya dan sejarah yang kaya. Dalam beberapa budaya, bunga dahlia merah dipandang sebagai simbol kekuatan, kekuasaan, dan martabat. Bunga ini juga digunakan dalam pengobatan tradisional untuk mengobati berbagai penyakit. Bunga dahlia merah juga bisa melambangkan keberanian dan semangat juang.</item>
+        <item>Bunga edelweiss memiliki makna dan keistimewaan yang menarik. Bunga ini tetap populer hingga saat ini dan memiliki sejumlah makna seperti bunga lainnya. Edelweiss sering dianggap sebagai simbol kecantikan, ketahanan, dan keabadian. Bunga ini tumbuh di daerah pegunungan yang sulit dijangkau, sehingga melambangkan ketahanan dan kekuatan dalam menghadapi tantangan. Selain itu, edelweiss juga melambangkan keindahan yang langka dan keabadian, karena bunga ini memiliki daya tahan yang tinggi dan dapat bertahan lama.</item>
+        <item>Bunga kamelia merah muda memiliki simbolisme dan makna spiritual yang kuat di banyak kebudayaan. Di Jepang, bunga kamelia merah muda sangat dihormati dan dianggap sebagai simbol musim semi dan kesetiaan. Bunga kamelia merah muda juga merupakan simbol kemakmuran, umur panjang, dan keberuntungan dalam budaya Tiongkok.</item>
+        <item>Bunga matahari kuning memiliki makna yang beragam tergantung pada budaya dan konteksnya. Secara umum, bunga matahari kuning melambangkan kebahagiaan, kecerahan, kehangatan, dan energi positif. Warna kuning pada bunga matahari juga diartikan sebagai warna tawa yang dapat membawa kegembiraan.
+Di beberapa budaya, seperti dalam budaya Tiongkok, bunga matahari juga melambangkan kesehatan dan penyembuhan. Bunga matahari kuning juga sering dikaitkan dengan matahari itu sendiri, yang merupakan sumber cahaya dan kehidupan bagi kita semua.</item>
+        <item>Bunga mawar putih memiliki makna yang beragam tergantung pada konteks dan budaya di mana dilihat. Secara umum, mawar putih melambangkan kesucian, kepolosan, keanggunan, dan keabadian. Mawar putih sering dikaitkan dengan perasaan cinta yang tulus, keperawanan, dan penghormatan.
+Dalam beberapa budaya, mawar putih juga melambangkan perdamaian, kehormatan, dan penghormatan terhadap seseorang. Mawar putih sering digunakan dalam acara pernikahan dan upacara pemakaman sebagai simbol kesucian dan penghormatan terhadap kehidupan yang telah berpulang.</item>
+        <item>Bunga sakura memiliki makna dan filosofi yang mendalam dalam budaya Jepang. Bunga sakura melambangkan kehidupan, kematian, dan pembaruan. Secara filosofis, bunga sakura melambangkan siklus kehidupan yang singkat dan indah. Bunga sakura mekar dengan indah hanya untuk waktu yang singkat sebelum layu dan jatuh. Hal ini mengingatkan kita akan keindahan dan kerapuhan kehidupan manusia, serta pentingnya menghargai setiap momen yang kita miliki.</item>
+        <item>Bunga tulip merah muda memiliki makna yang berbeda dari bunga tulip merah. Bunga tulip merah muda melambangkan cinta yang muda, kelembutan, keindahan, dan kegembiraan. Warna merah muda pada bunga tulip menggambarkan perasaan yang lembut dan romantis. Bunga tulip merah muda sering digunakan sebagai simbol cinta yang baru dan awal yang indah.</item>
+    </string-array>
+</resources>
