@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="listPrice" type="id" />
-    <item name="listProdukDetails" type="id" />
-    <item name="listProdukDescriptions" type="id" />
-    <item name="chatSellerButton" type="id" />
-    <item name="storeInfoButton" type="id" />
-</resources>

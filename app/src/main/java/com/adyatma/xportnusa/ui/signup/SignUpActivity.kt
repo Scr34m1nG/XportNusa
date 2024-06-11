@@ -40,7 +40,7 @@ class SignUpActivity : AppCompatActivity() {
             if (validateInput(username, email, password )) {
                 registerUser(username, email, password)
             }
-            startActivity(Intent(this@SignUpActivity, BuyerOrSeller::class.java))
+            startActivity(Intent(this@SignUpActivity, BuyerFormActivity::class.java))
         }
 
         binding.gotoLogin.setOnClickListener {

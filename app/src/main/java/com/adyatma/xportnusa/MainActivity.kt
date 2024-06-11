@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import com.adyatma.xportnusa.ui.branch.BranchActivity
 import com.adyatma.xportnusa.ui.login.LoginActivity
 
 class MainActivity : AppCompatActivity() {
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         setupView()
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+            startActivity(Intent(this@MainActivity, BranchActivity::class.java))
                                                         finish()
         }, 2000)
 
