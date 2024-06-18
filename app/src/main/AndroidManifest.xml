@@ -48,11 +48,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-<<<<<<< HEAD
             android:exported="true" >
-=======
-            android:exported="true">
->>>>>>> origin/master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
