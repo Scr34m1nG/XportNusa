@@ -9,14 +9,7 @@ import android.view.WindowInsets
 import android.view.WindowManager
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.lifecycle.lifecycleScope
-<<<<<<< HEAD
-=======
 import com.adyatma.xportnusa.ui.branch.BranchActivity
->>>>>>> origin/master
-import com.adyatma.xportnusa.ui.login.LoginActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,12 +19,8 @@ class MainActivity : AppCompatActivity() {
         setupView()
 
         Handler(Looper.getMainLooper()).postDelayed({
-<<<<<<< HEAD
-            startActivity(Intent(this@MainActivity, LoginActivity::class.java))
-=======
             startActivity(Intent(this@MainActivity, BranchActivity::class.java))
->>>>>>> origin/master
-                                                        finish()
+            finish()
         }, 2000)
 
     }
