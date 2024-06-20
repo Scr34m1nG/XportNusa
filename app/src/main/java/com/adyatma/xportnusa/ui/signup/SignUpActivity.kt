@@ -40,11 +40,7 @@ class SignUpActivity : AppCompatActivity() {
             if (validateInput(username, email, password )) {
                 registerUser(username, email, password)
             }
-<<<<<<< HEAD
-            startActivity(Intent(this@SignUpActivity, BuyerOrSeller::class.java))
-=======
             startActivity(Intent(this@SignUpActivity, BuyerFormActivity::class.java))
->>>>>>> origin/master
         }
 
         binding.gotoLogin.setOnClickListener {
@@ -84,7 +80,7 @@ class SignUpActivity : AppCompatActivity() {
         user.setValue(userMap)
             .addOnSuccessListener {
                 Toast.makeText(this, "Registration Successful!", Toast.LENGTH_SHORT).show()
-                startActivity(Intent(this, BuyerOrSeller::class.java))
+                startActivity(Intent(this, BuyerFormActivity::class.java))
             }
     }
 }

@@ -14,10 +14,7 @@ import androidx.lifecycle.lifecycleScope
 import com.adyatma.xportnusa.R
 import com.adyatma.xportnusa.databinding.ActivityLoginBinding
 import com.adyatma.xportnusa.ui.formfieldform.BuyerOrSeller
-<<<<<<< HEAD
-=======
 import com.adyatma.xportnusa.ui.formfieldform.buyerform.BuyerFormActivity
->>>>>>> origin/master
 import com.adyatma.xportnusa.ui.signup.SignUpActivity
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
@@ -116,11 +113,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun updateUI(currentUser: FirebaseUser?) {
         if (currentUser != null) {
-<<<<<<< HEAD
-            startActivity(Intent(this@LoginActivity, BuyerOrSeller::class.java))
-=======
             startActivity(Intent(this@LoginActivity, BuyerFormActivity::class.java))
->>>>>>> origin/master
             finish()
         }
     }
