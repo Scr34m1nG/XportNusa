@@ -1,4 +1,4 @@
-package com.adyatma.xportnusa.ui.homeseller
+package com.adyatma.xportnusa.ui.homebuyyer
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,25 +12,26 @@ import androidx.credentials.ClearCredentialStateRequest
 import androidx.credentials.CredentialManager
 import androidx.lifecycle.lifecycleScope
 import com.adyatma.xportnusa.R
-import com.adyatma.xportnusa.databinding.ActivitySellerEmptyBinding
+import com.adyatma.xportnusa.databinding.ActivityHomeBuyerBinding
 import com.adyatma.xportnusa.ui.login.LoginActivity
-import com.adyatma.xportnusa.ui.upload.UploadActivity
+import com.adyatma.xportnusa.ui.premium.PremiumRegistActivity
+import com.example.coba.DetailActivity
 import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
 import kotlinx.coroutines.launch
 
-class SellerEmptyActivity : AppCompatActivity() {
-    private val binding: ActivitySellerEmptyBinding by lazy {
-        ActivitySellerEmptyBinding.inflate(layoutInflater)
+class HomeBuyerActivity : AppCompatActivity() {
+    private val binding: ActivityHomeBuyerBinding by lazy {
+        ActivityHomeBuyerBinding.inflate(layoutInflater)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
-        binding.fabAdd.setOnClickListener {
-            startActivity(Intent(this@SellerEmptyActivity, UploadActivity::class.java))
-        }
 
+        binding.testing.setOnClickListener {
+            startActivity(Intent(this@HomeBuyerActivity, DetailItemActivity::class.java))
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -45,18 +46,22 @@ class SellerEmptyActivity : AppCompatActivity() {
                 signOut()
                 true
             }
+            R.id.premium -> {
+                startActivity(Intent(this@HomeBuyerActivity, PremiumRegistActivity::class.java))
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
 
     private fun signOut() {
         lifecycleScope.launch {
-            val credentialManager = CredentialManager.create(this@SellerEmptyActivity)
+            val credentialManager = CredentialManager.create(this@HomeBuyerActivity)
 
             val auth = Firebase.auth
             auth.signOut()
             credentialManager.clearCredentialState(ClearCredentialStateRequest())
-            startActivity(Intent(this@SellerEmptyActivity, LoginActivity::class.java))
+            startActivity(Intent(this@HomeBuyerActivity, LoginActivity::class.java))
 
             finish()
         }

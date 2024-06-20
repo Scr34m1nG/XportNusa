@@ -8,13 +8,16 @@
     android:layout_height="match_parent"
     tools:context=".ui.homeseller.SellerEmptyActivity">
 
-  <TextView
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fab_add"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="seller empty"
+      android:backgroundTint="@color/brown_earth"
+      android:src="@drawable/ic_add_24"
+      android:tint="@color/white"
+      android:layout_margin="28dp"
       app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintEnd_toEndOf="parent" />
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

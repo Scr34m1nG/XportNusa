@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools">
-=======
-    xmlns:tools="http://schemas.android.com/tools" >
->>>>>>> b9a0f9041dd08d18ebca6cadee1263d4639cfc2e
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,11 +13,28 @@
         android:roundIcon="@drawable/logo_background_white"
         android:supportsRtl="true"
         android:theme="@style/Theme.XportNusa"
-<<<<<<< HEAD
         tools:targetApi="31">
+        <activity
+            android:name=".ui.homebuyyer.DetailItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.premium.PremiumRegistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.homebuyyer.HomeBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.upload.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-=======
-        tools:targetApi="31" >
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ui.homeseller.SellerLoginActivity"
             android:exported="false" />
@@ -40,7 +53,6 @@
         <activity
             android:name=".ui.maninthemiddle.MiddleOfBuyerFormToActivity"
             android:exported="false" />
->>>>>>> b9a0f9041dd08d18ebca6cadee1263d4639cfc2e
         <activity
             android:name=".ui.signup.SignUpSellerActivity"
             android:exported="false" />
@@ -65,20 +77,6 @@
         <activity
             android:name=".ui.login.LoginActivity"
             android:exported="false" />
-
-        <activity
-            android:name=".MainActivity"
-<<<<<<< HEAD
-    android:exported="true">
-
-=======
-            android:exported="true" >
->>>>>>> b9a0f9041dd08d18ebca6cadee1263d4639cfc2e
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

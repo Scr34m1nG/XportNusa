@@ -17,4 +17,85 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:layout_marginHorizontal="5dp"
+      android:layout_marginVertical="15dp"
+      app:cardCornerRadius="10dp"
+      app:cardElevation="8dp"
+      android:layout_marginTop="32dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="MissingConstraints">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <ImageView
+          android:id="@+id/image"
+          android:layout_width="65dp"
+          android:layout_height="66dp"
+          android:layout_marginStart="10dp"
+          android:adjustViewBounds="true"
+          android:padding="8dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/woodflooring1"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="5dp"
+          android:text="Wood Flooring"
+          android:textColor="@android:color/black"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toTopOf="@+id/listTime"
+          app:layout_constraintStart_toEndOf="@+id/image"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/listTime"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:text="Min Order : 48"
+          android:textColor="@android:color/black"
+          android:textSize="16sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/image"
+          app:layout_constraintTop_toBottomOf="@+id/text" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="10dp"
+          android:text="$62-$166"
+          android:textColor="@android:color/black"
+          android:textSize="16sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fab_add"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/brown_earth"
+      android:src="@drawable/ic_add_24"
+      android:tint="@color/white"
+      android:layout_margin="28dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
   </androidx.constraintlayout.widget.ConstraintLayout>

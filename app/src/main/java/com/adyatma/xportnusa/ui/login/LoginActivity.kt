@@ -12,9 +12,11 @@ import androidx.credentials.GetCredentialResponse
 import androidx.credentials.exceptions.GetCredentialException
 import androidx.lifecycle.lifecycleScope
 import com.adyatma.xportnusa.R
+import com.adyatma.xportnusa.databinding.ActivityHomeBuyerBinding
 import com.adyatma.xportnusa.databinding.ActivityLoginBinding
 import com.adyatma.xportnusa.ui.formfieldform.BuyerOrSeller
 import com.adyatma.xportnusa.ui.formfieldform.buyerform.BuyerFormActivity
+import com.adyatma.xportnusa.ui.homebuyyer.HomeBuyerActivity
 import com.adyatma.xportnusa.ui.signup.SignUpActivity
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
@@ -44,6 +46,7 @@ class LoginActivity : AppCompatActivity() {
 
         binding.signIn.setOnClickListener{
             singIn()
+            startActivity(Intent(this@LoginActivity, HomeBuyerActivity::class.java))
         }
 
         binding.gotoRegister.setOnClickListener {
@@ -113,7 +116,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun updateUI(currentUser: FirebaseUser?) {
         if (currentUser != null) {
-            startActivity(Intent(this@LoginActivity, BuyerFormActivity::class.java))
+            startActivity(Intent(this@LoginActivity, ActivityHomeBuyerBinding::class.java))
             finish()
         }
     }
